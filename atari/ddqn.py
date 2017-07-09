@@ -42,7 +42,7 @@ class AtariAgent():
         self.memory = ExperienceReplay(memory_size=self.memory_size, batch_size=self.batch_size)
         # define parameters
         self.train_episodes = 50000
-        self.pre_train_episodes = 5
+        self.pre_train_episodes = 5000
         self.test_episodes = 10
         self.input_shape = (84, 84, self.state_size)
 
